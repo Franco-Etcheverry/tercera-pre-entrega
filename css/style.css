@@ -1,0 +1,18 @@
+header .logo-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  border-bottom: solid .125rem #ff7546; }
+  header .logo-container .logo-isotipo {
+    width: 9.375rem;
+    height: 9.375rem;
+    margin: .625rem; }
+  header .logo-container h1 {
+    display: none; }
+
+header .logo-horizontal {
+  width: 12.5rem;
+  height: 4.375rem; }
+
+header .nav-item {
+  margin: .625rem; }
