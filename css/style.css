@@ -1,8 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+@font-face {
+  font-family: Tipografia Logo;
+  src: url(../assets/fonts/Leaner-Thin.ttf); }
+
+@font-face {
+  font-family: Tipografia Secundaria;
+  src: url(../assets/fonts/Roboto-Regular.ttf); }
+
 header .logo-container {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  border-bottom: solid .125rem #ff7546; }
+  border-bottom: solid 0.125rem #ff7546; }
   header .logo-container .logo-isotipo {
     width: 9.375rem;
     height: 9.375rem;
@@ -15,4 +28,7 @@ header .logo-horizontal {
   height: 4.375rem; }
 
 header .nav-item {
-  margin: .625rem; }
+  margin: .625rem;
+  font-family: Tipografia Secundaria;
+  font-size: 1.25rem;
+  color: #ff7546; }

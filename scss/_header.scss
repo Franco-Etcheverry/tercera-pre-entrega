@@ -1,0 +1,26 @@
+header{
+    .logo-container{
+        display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-bottom: solid .125rem $color-principal;
+        .logo-isotipo{
+            width: 9.375rem;
+            height: 9.375rem;
+            margin: .625rem;
+        }
+        h1{
+            display: none;
+        }
+    }
+    .logo-horizontal{
+        width: 12.5rem;
+    height: 4.375rem;
+    }
+    .nav-item{
+        margin: .625rem;
+        font-family: Tipografia Secundaria;
+        font-size: $fuente-mediana;
+        color: $color-principal;
+    }
+}
