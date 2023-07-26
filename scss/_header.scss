@@ -21,6 +21,8 @@ header{
         margin: .625rem;
         font-family: Tipografia Secundaria;
         font-size: $fuente-mediana;
-        color: $color-principal;
+        a{
+            color: $color-principal;
+        }
     }
 }
