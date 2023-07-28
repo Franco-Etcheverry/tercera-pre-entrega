@@ -14,11 +14,11 @@ main{
         height: 37.5rem;
         margin-top: 3.125rem;
     }
-    section{
-    margin: 50px;
+    .container-cards{
+    width: 100%;
+    margin-top: 3.125rem;
     display: grid;
-    grid-template-columns: repeat(4, 2fr);
-    grid-auto-rows: auto;
+    grid-template-columns: repeat(4, 25%);
     gap: 10px;
     justify-items: center;
         .cards{
@@ -43,7 +43,6 @@ main{
                 padding: .3125rem;
             }
         }
-
     }
     
 }

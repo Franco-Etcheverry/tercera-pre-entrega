@@ -1,6 +1,8 @@
 footer{
     .container{
+        width: 100%;
         border-top: solid .125rem $color-principal;
+        margin-top: 3.125rem;
         .logo-isotipo{
             margin: .625rem;
             width: 3.125rem;
@@ -12,6 +14,7 @@ footer{
             color: $color-secundario;
         }
         .row{
+            width: 100%;
             display: grid;
         grid-template-columns: repeat(12, 1fr);
         grid-auto-rows: auto;
@@ -22,7 +25,6 @@ footer{
         grid-column-start: 8;
         grid-column-end: 12;
         align-self: center;
-        border: solid .125rem $color-principal;
         }
         }
         }
