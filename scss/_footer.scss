@@ -1,0 +1,16 @@
+footer{
+    .container{
+        border-top: solid .125rem $color-principal;
+        .logo-isotipo{
+            margin: .625rem;
+            width: 3.125rem;
+            height: 3.125rem;
+        }
+        .nav flex-column{
+            font-family: Tipografia Secundaria;
+            font-size: $fuente-mediana;
+            color: $color-secundario;
+        }
+    }
+    
+}
