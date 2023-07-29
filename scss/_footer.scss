@@ -8,10 +8,12 @@ footer{
             width: 3.125rem;
             height: 3.125rem;
         }
-        .nav flex-column{
-            font-family: Tipografia Secundaria;
+        .nav{
+            .nav-item{
+                font-family: Tipografia Secundaria;
             font-size: $fuente-mediana;
             color: $color-secundario;
+            }
         }
         .row{
             width: 100%;
@@ -25,6 +27,11 @@ footer{
         grid-column-start: 8;
         grid-column-end: 12;
         align-self: center;
+        p{
+            font-family: Tipografia Secundaria;
+            font-size: $fuente-mediana;
+            color: $color-secundario;
+        }
         }
         }
         }

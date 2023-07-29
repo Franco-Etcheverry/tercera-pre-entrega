@@ -18,15 +18,6 @@
   grid-column-end: 13;
   align-self: center; }
 
-@media (max-width: 1024px) {
-  .container-cards {
-    width: 100%;
-    margin-top: 3.125rem;
-    display: grid;
-    grid-template-columns: repeat(2, 50%);
-    gap: 10px;
-    justify-items: center; } }
-
 @font-face {
   font-family: Tipografia Logo;
   src: url(../assets/fonts/Leaner-Thin.ttf); }
@@ -112,7 +103,7 @@ footer .container {
     margin: .625rem;
     width: 3.125rem;
     height: 3.125rem; }
-  footer .container .nav flex-column {
+  footer .container .nav .nav-item {
     font-family: Tipografia Secundaria;
     font-size: 1.25rem;
     color: #474747; }
@@ -128,12 +119,71 @@ footer .container {
       grid-column-start: 8;
       grid-column-end: 12;
       align-self: center; }
+      footer .container .row .container-direccion p {
+        font-family: Tipografia Secundaria;
+        font-size: 1.25rem;
+        color: #474747; }
 
 @media (max-width: 1024px) {
-  .container-cards {
+  main .container-cards {
     width: 100%;
     margin-top: 3.125rem;
     display: grid;
     grid-template-columns: repeat(2, 50%);
     gap: 10px;
     justify-items: center; } }
+
+@media (max-width: 900px) {
+  footer .container .row .container-direccion {
+    margin: 10px;
+    padding: 5px;
+    display: grid;
+    grid-column-start: 4;
+    grid-column-end: 8;
+    align-self: center; }
+    footer .container .row .container-direccion p {
+      font-family: Tipografia Secundaria;
+      font-size: 1.25rem;
+      color: #474747; } }
+
+@media (max-width: 768px) {
+  footer .container .row .container-direccion {
+    margin: 10px;
+    padding: 5px;
+    display: grid;
+    grid-column-start: 3;
+    grid-column-end: 7;
+    align-self: center; }
+    footer .container .row .container-direccion p {
+      font-family: Tipografia Secundaria;
+      font-size: 1.25rem;
+      color: #474747; } }
+
+@media (max-width: 600px) {
+  header nav .logo-isotipo {
+    display: none; } }
+
+@media (max-width: 425px) {
+  main .container-cards {
+    width: 100%;
+    margin-top: 3.125rem;
+    display: grid;
+    grid-template-columns: repeat(1, 25%);
+    gap: 10px;
+    justify-items: center;
+    justify-content: center; } }
+
+footer .container .row .container-direccion {
+  margin: 10px;
+  padding: 5px;
+  display: grid;
+  grid-column-start: 2;
+  grid-column-end: 6;
+  align-self: center; }
+  footer .container .row .container-direccion iframe {
+    display: none; }
+  footer .container .row .container-direccion p {
+    font-family: Tipografia Logo;
+    font-size: 2.5rem;
+    color: #474747;
+    text-align: center; }

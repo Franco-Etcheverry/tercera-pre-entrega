@@ -1,10 +1,106 @@
 @media(max-width: 1024px){
-    .container-cards{
-        width: 100%;
-        margin-top: 3.125rem;
-        display: grid;
-        grid-template-columns: repeat(2, 50%);
-        gap: 10px;
-        justify-items: center;
-        }
+    main{
+        .container-cards{
+            width: 100%;
+            margin-top: 3.125rem;
+            display: grid;
+            grid-template-columns: repeat(2, 50%);
+            gap: 10px;
+            justify-items: center;
+            }
+    }
 }
+
+@media(max-width: 900px){
+    footer{
+        .container{
+            .row{
+                .container-direccion{
+                    margin: 10px;
+                padding: 5px;
+                display: grid;
+                grid-column-start: 4;
+                grid-column-end: 8;
+                align-self: center;
+                p{
+                    font-family: Tipografia Secundaria;
+                    font-size: $fuente-mediana;
+                    color: $color-secundario;
+                }
+                }
+            }
+            
+            }
+        }
+    }
+
+@media(max-width: 768px){
+    footer{
+        .container{
+            .row{
+                .container-direccion{
+                    margin: 10px;
+                padding: 5px;
+                display: grid;
+                grid-column-start: 3;
+                grid-column-end: 7;
+                align-self: center;
+                p{
+                    font-family: Tipografia Secundaria;
+                    font-size: $fuente-mediana;
+                    color: $color-secundario;
+                }
+                }
+            }
+            
+            }
+        }
+    }
+
+@media(max-width: 600px){
+    header{
+        nav{
+            .logo-isotipo{
+                display: none;
+            }
+        }
+    }
+}
+
+@media(max-width: 425px){
+    main{
+        .container-cards{
+            width: 100%;
+            margin-top: 3.125rem;
+            display: grid;
+            grid-template-columns: repeat(1, 25%);
+            gap: 10px;
+            justify-items: center;
+            justify-content: center;
+            }
+    }
+}
+    footer{
+        .container{
+            .row{
+                .container-direccion{
+                    iframe{
+                        display: none;
+                    }
+                    margin: 10px;
+                padding: 5px;
+                display: grid;
+                grid-column-start: 2;
+                grid-column-end: 6;
+                align-self: center;
+                p{
+                    font-family: Tipografia Logo;
+                    font-size: $fuente-grande;
+                    color: $color-secundario;
+                    text-align: center;
+                }
+                }
+            }
+            
+            }
+        }
