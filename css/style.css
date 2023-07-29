@@ -54,46 +54,73 @@ header .nav-item {
     header .nav-item a:hover {
       color: #ff7546; }
 
-main .carrusel-1 {
-  width: 100%;
-  height: 37.5rem;
-  margin-top: 3.125rem; }
-
-main .carrusel-2 {
-  width: 100%;
-  height: 37.5rem;
-  margin-top: 3.125rem; }
-
-main .carrusel-3 {
-  width: 100%;
-  height: 37.5rem;
-  margin-top: 3.125rem; }
-
-main .container-cards {
-  width: 100%;
-  margin-top: 3.125rem;
-  display: grid;
-  grid-template-columns: repeat(4, 25%);
-  gap: 10px;
-  justify-items: center; }
-  main .container-cards .cards {
-    width: 12.5rem;
-    padding: .625rem;
-    border-radius: .3125rem;
-    background-color: #ff744698; }
-    main .container-cards .cards .img-cards {
-      width: 100%; }
-    main .container-cards .cards h2 {
-      font-family: Tipografia Logo;
-      font-size: 1.25rem;
-      color: #474747;
-      padding: .3125rem; }
-    main .container-cards .cards p {
-      font-family: Tipografia Secundaria;
-      font-size: 0.875rem;
-      color: #474747;
-      text-align: center;
-      padding: .3125rem; }
+main {
+  background-image: url(../assets/img/background.png); }
+  main .carrusel-1 {
+    width: 100%;
+    height: 37.5rem;
+    margin-top: 3.125rem; }
+  main .carrusel-2 {
+    width: 100%;
+    height: 37.5rem;
+    margin-top: 3.125rem; }
+  main .carrusel-3 {
+    width: 100%;
+    height: 37.5rem;
+    margin-top: 3.125rem; }
+  main .container-ropa {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    margin-top: 3.125rem;
+    margin-bottom: 3.125rem; }
+    main .container-ropa .ropa-img {
+      display: flex;
+      flex-direction: column;
+      justify-content: center; }
+      main .container-ropa .ropa-img img {
+        width: 6.25rem;
+        height: 6.25rem; }
+      main .container-ropa .ropa-img h3 {
+        font-family: Tipografia Secundaria;
+        font-size: 1.25rem;
+        color: #ff7546;
+        text-align: center; }
+  main .container-cards {
+    width: 100%;
+    margin-top: 3.125rem;
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    gap: 10px;
+    justify-items: center; }
+    main .container-cards .cards {
+      width: 12.5rem;
+      padding: .625rem;
+      border-radius: .3125rem;
+      background-color: #ff744698; }
+      main .container-cards .cards .img-cards {
+        width: 100%; }
+      main .container-cards .cards h2 {
+        font-family: Tipografia Logo;
+        font-size: 1.25rem;
+        color: #474747;
+        padding: .3125rem; }
+      main .container-cards .cards p {
+        font-family: Tipografia Secundaria;
+        font-size: 0.875rem;
+        color: #474747;
+        text-align: center;
+        padding: .3125rem; }
+  main .marcas-container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: repeat(5, 1fr);
+    align-items: center;
+    justify-items: center;
+    margin-top: 3.125rem; }
 
 footer .container {
   width: 100%;
@@ -124,6 +151,12 @@ footer .container {
         font-size: 1.25rem;
         color: #474747; }
 
+footer .medios-de-pago {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
+
 @media (max-width: 1024px) {
   main .container-cards {
     width: 100%;
@@ -131,7 +164,9 @@ footer .container {
     display: grid;
     grid-template-columns: repeat(2, 50%);
     gap: 10px;
-    justify-items: center; } }
+    justify-items: center; }
+    main .container-cards .cards h2 {
+      font-family: Tipografia Secundaria; } }
 
 @media (max-width: 900px) {
   footer .container .row .container-direccion {
@@ -147,6 +182,9 @@ footer .container {
       color: #474747; } }
 
 @media (max-width: 768px) {
+  main .container-ropa {
+    flex-direction: column;
+    align-items: center; }
   footer .container .row .container-direccion {
     margin: 10px;
     padding: 5px;
@@ -171,19 +209,27 @@ footer .container {
     grid-template-columns: repeat(1, 25%);
     gap: 10px;
     justify-items: center;
-    justify-content: center; } }
-
-footer .container .row .container-direccion {
-  margin: 10px;
-  padding: 5px;
-  display: grid;
-  grid-column-start: 2;
-  grid-column-end: 6;
-  align-self: center; }
-  footer .container .row .container-direccion iframe {
-    display: none; }
-  footer .container .row .container-direccion p {
-    font-family: Tipografia Logo;
-    font-size: 2.5rem;
-    color: #474747;
-    text-align: center; }
+    justify-content: center; }
+  main .marcas-container {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: repeat(10, 1fr);
+    align-items: center;
+    justify-items: center;
+    margin-top: 3.125rem; }
+  footer .container .row .container-direccion {
+    margin: 10px;
+    padding: 5px;
+    display: grid;
+    grid-column-start: 2;
+    grid-column-end: 6;
+    align-self: center; }
+    footer .container .row .container-direccion iframe {
+      display: none; }
+    footer .container .row .container-direccion p {
+      font-family: Tipografia Logo;
+      font-size: 2.5rem;
+      color: #474747;
+      text-align: center; } }

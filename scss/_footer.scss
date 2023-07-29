@@ -35,5 +35,11 @@ footer{
         }
         }
         }
+        .medios-de-pago{
+            list-style: none;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+        }
     
 }

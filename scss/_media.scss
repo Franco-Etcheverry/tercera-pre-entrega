@@ -7,6 +7,11 @@
             grid-template-columns: repeat(2, 50%);
             gap: 10px;
             justify-items: center;
+            .cards{
+                h2{
+                    font-family: Tipografia Secundaria;
+                }
+            }
             }
     }
 }
@@ -35,6 +40,12 @@
     }
 
 @media(max-width: 768px){
+    main{
+        .container-ropa{
+        flex-direction: column;
+        align-items: center;
+        }
+    }
     footer{
         .container{
             .row{
@@ -78,8 +89,17 @@
             justify-items: center;
             justify-content: center;
             }
+        .marcas-container{
+            width: 100%;
+            height: 100%;
+            display: grid;
+            grid-template-columns: 100%;
+            grid-template-rows: repeat(10, 1fr);
+            align-items: center;
+            justify-items: center;
+            margin-top: 3.125rem;
+            }
     }
-}
     footer{
         .container{
             .row{
@@ -104,3 +124,4 @@
             
             }
         }
+}
