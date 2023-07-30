@@ -71,6 +71,7 @@ main {
   main .container-ropa {
     display: flex;
     flex-direction: row;
+    flex-wrap: nowrap;
     justify-content: space-evenly;
     align-items: center;
     width: 100%;
@@ -122,6 +123,19 @@ main {
     justify-items: center;
     margin-top: 3.125rem; }
 
+.container-formulario {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+.formulario {
+  font-family: Tipografia Secundaria;
+  font-size: 1.25rem;
+  color: #474747; }
+  .formulario h4 {
+    font-family: Tipografia Logo;
+    font-size: 2.5rem; }
+
 footer .container {
   width: 100%;
   border-top: solid 0.125rem #ff7546;
@@ -155,7 +169,8 @@ footer .medios-de-pago {
   list-style: none;
   display: flex;
   flex-direction: row;
-  justify-content: center; }
+  justify-content: center;
+  flex-wrap: wrap; }
 
 @media (max-width: 1024px) {
   main .container-cards {
@@ -182,6 +197,12 @@ footer .medios-de-pago {
       color: #474747; } }
 
 @media (max-width: 768px) {
+  main .carrusel-1 {
+    height: 18.75rem; }
+  main .carrusel-2 {
+    height: 18.75rem; }
+  main .carrusel-3 {
+    height: 18.75rem; }
   main .container-ropa {
     flex-direction: column;
     align-items: center; }
