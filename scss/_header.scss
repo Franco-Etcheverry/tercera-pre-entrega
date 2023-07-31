@@ -6,11 +6,13 @@ header{
     grid-template-columns: repeat(12, 1fr);
     border-bottom: solid .125rem $color-principal;
         .logo-horizontal{
-            width: 12.5rem;
-            height: 4.375rem;
-            margin: .625rem;
             grid-column-start: 6;
             grid-column-end: 8;
+            img{
+                width: 12.5rem;
+                height: 4.375rem;
+                margin: .625rem;
+            }
         }
         h1{
             display: none;

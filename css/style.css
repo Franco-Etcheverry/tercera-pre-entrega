@@ -33,11 +33,12 @@ header .logo-container {
   grid-template-columns: repeat(12, 1fr);
   border-bottom: solid 0.125rem #ff7546; }
   header .logo-container .logo-horizontal {
-    width: 12.5rem;
-    height: 4.375rem;
-    margin: .625rem;
     grid-column-start: 6;
     grid-column-end: 8; }
+    header .logo-container .logo-horizontal img {
+      width: 12.5rem;
+      height: 4.375rem;
+      margin: .625rem; }
   header .logo-container h1 {
     display: none; }
 
