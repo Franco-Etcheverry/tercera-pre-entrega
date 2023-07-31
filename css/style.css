@@ -207,6 +207,8 @@ footer .medios-de-pago {
       color: #474747; } }
 
 @media (max-width: 768px) {
+  header .logo-container .logo-horizontal {
+    grid-column-start: 5; }
   main .carrusel-1 {
     height: 18.75rem; }
   main .carrusel-2 {
@@ -229,10 +231,14 @@ footer .medios-de-pago {
       color: #474747; } }
 
 @media (max-width: 600px) {
+  header .logo-container .logo-horizontal {
+    grid-column-start: 4; }
   header nav .logo-isotipo {
     display: none; } }
 
 @media (max-width: 425px) {
+  header .logo-container .logo-horizontal {
+    grid-column-start: 3; }
   main .container-cards {
     width: 100%;
     margin-top: 3.125rem;
