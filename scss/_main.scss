@@ -47,7 +47,18 @@ main{
             width: 12.5rem;
             padding: .625rem;
             border-radius: .3125rem;
-            background-color: #ff744698;
+            border: solid .125rem $color-principal;
+            backdrop-filter: blur(.3125rem);
+            border-radius: 1rem;
+            cursor: pointer;
+            transition: all 0,5s;
+            user-select: none;
+            &:hover{
+                transform: scale(1.05);
+            }
+            &:active{
+                transform: scale(0.95) rotateZ(1.5deg);
+            }
             .img-cards{
                 width: 100%;
             }

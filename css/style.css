@@ -100,7 +100,16 @@ main {
       width: 12.5rem;
       padding: .625rem;
       border-radius: .3125rem;
-      background-color: #ff744698; }
+      border: solid 0.125rem #ff7546;
+      backdrop-filter: blur(0.3125rem);
+      border-radius: 1rem;
+      cursor: pointer;
+      transition: all 0,5s;
+      user-select: none; }
+      main .container-cards .cards:hover {
+        transform: scale(1.05); }
+      main .container-cards .cards:active {
+        transform: scale(0.95) rotateZ(1.5deg); }
       main .container-cards .cards .img-cards {
         width: 100%; }
       main .container-cards .cards h2 {
