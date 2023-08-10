@@ -99,7 +99,7 @@
     }
 }
 
-@media(max-width: 425px){
+@media(max-width: 426px){
     header{
         .logo-container{
             .logo-horizontal{
@@ -143,7 +143,7 @@
                 align-self: center;
                 p{
                     font-family: Tipografia Logo;
-                    font-size: $fuente-grande;
+                    font-size: 1.875rem ;
                     color: $color-secundario;
                     text-align: center;
                 }
@@ -152,4 +152,14 @@
             
             }
         }
+}
+
+@media (max-width: 321px){
+    header{
+        .logo-container{
+            .logo-horizontal{
+                grid-column-start: 2;
+            }
+        }
+    }
 }
