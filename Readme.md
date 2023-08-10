@@ -20,6 +20,8 @@ Este es un repositorio del sitio web de Tienda Nelson. Es un local multimarcas d
 - Bootstrap 5.3.0
 
 ## Creditos
+- Profesor: Maximiliano Cardenas
+- Tutor: Joaquin De La Parra
 - Author: Franco Etcheverry
 - Bootstrap: [https://getbootstrap.com/](https://getbootstrap.com/)
 - Icons from Bootstrap Icons: [https://icons.getbootstrap.com/](https://icons.getbootstrap.com/)
