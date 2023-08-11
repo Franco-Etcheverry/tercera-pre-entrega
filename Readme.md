@@ -25,4 +25,4 @@ Este es un repositorio del sitio web de Tienda Nelson. Es un local multimarcas d
 - Author: Franco Etcheverry
 - Bootstrap: [https://getbootstrap.com/](https://getbootstrap.com/)
 - Icons from Bootstrap Icons: [https://icons.getbootstrap.com/](https://icons.getbootstrap.com/)
-##Se que puedo hacerla mucho mejor.
+##Se que puedo hacerla mucho mejor, con mas tiempo tengo la certeza de que le daria un mejor aspecto, por el momento esto es lo mejor que logre hacer.Estoy muy contento porque nunca habia tenido contacto con nada de este mundo y me fascina necesito seguir aprendiendo mas herramientas.
